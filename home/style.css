@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+body {
+  background-image: url("https://media.giphy.com/media/3o6vY2wgzLY2K1MKB2/giphy.gif");
+  background-repeat: no-repeat; 
+  background-size:cover ;
+  background-attachment: fixed;
+  /* filter: blur(4px);*/
+ 
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0);
+    
+    position: relative;
+}
+
+.header .navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /*justify-content: space-between;*/
+    background-size:cover ;
+    align-items: center;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.logo img{
+    margin-left: 100px;
+}
+
+.menu ul li{
+    display: inline-block;
+    padding: 0 25px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 80px;
+    align-items: center;
+}
+
+.login-btn{
+    display: block;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #f3ef51;
+    width: fit-content;
+    block-size: fit-content;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 50px;
+
+}
+
+.banner{
+    display: block;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 25%;
+    left: 150px;
+    color: #fff;
+}
+
+.app-text{
+    width:fit-content;
+
+    float: left;
+    padding-left:auto ;
+    color: #fff;
+}
+
+.app-text h3{
+    margin-top: 100px;
+    font-size: 17px;
+    color: rgb(247, 247, 247);
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.app-text h1{
+    font-size: 51px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.app-text p{
+    font-size: 19px;
+    margin: 30px 30px 30px 0;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    padding-right: 250px;
+}
+
+.btn-group{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.btn-group .signup-btn{
+    cursor: pointer;
+    display: block;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 32px;
+    background-color: #ffa037;
+    padding: 15px 50px;
+}
+
+.btn-group {
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.btn-group span{
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.about-services{
+    display: inline;
+    top: 125%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.about-services ul{
+    display: inline-flex;
+    /* text-align: center ; */
+}
+
+.about-services ul li{
+
+    cursor: pointer;
+}
+
+.about-services ul li img{
+   width: auto;
+    height: auto;
+}
+
+.about-services ul li h1{
+    font-size: 20px;
+}
+
+.about-services ul li p{
+   
+    display: block;
+    font-size: 15px; 
+    font-weight: 700;
+    padding: 0px;
+    
+}
+
+.social-icons{
+    position: fixed;
+    right: 30px;
+    top: 30%;
+}
+
+.social-icons ul li{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.social-icons ul li a{
+    color: #000;
+    padding: 10px;
+    display: block;
+    font-size: 29px;
+}
+
+.social-icons ul li a:hover{
+    background-color: #220efb;
+    color: #fff;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
